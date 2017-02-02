@@ -1,0 +1,83 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+#backdrop-canvas{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://source.unsplash.com/category/nature");
+  background-position: center;
+  background-size: cover;
+  position:fixed;
+}
+
+#nav-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: #EEE;
+  color: #383838;
+  box-shadow: 0px 0px 15px #888888;
+  padding: 14px 20px 14px 20px;
+  position:fixed;
+}
+
+#nav-container h1{
+  margin: 0;
+  font-size: 22pt;
+  display: inline-block;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+
+h1, h2, h3{
+  font-family: 'Bahiana', cursive;
+}
+
+#nav-container a{
+  color: #383838;
+  font-size: 22pt;
+  float: right;
+  margin-left: 20px;
+  line-height: 32px;
+}
+
+#nav-container a:hover{
+  color: #AAA;
+}
+
+#content-container{
+  position: absolute;
+  top: 0px;
+  padding-top: 150px;
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  background-color:rgba(250, 250, 250, 0.9);
+  box-shadow: 0px 0px 15px #888888;
+  border-radius: 5px;
+  min-height: 500px;
+  padding: 20px;
+  margin-bottom: 90px;
+}
+
+#content-cover{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:#383838;
+}
+
+#content-cover img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 200px;
+  margin-top: -100px; 
+  margin-left: -100px; 
+}
