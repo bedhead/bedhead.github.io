@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/bedheadbrum
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.brummitt.me.uk
+  * I am bedheadbrum (https://keybase.io/bedheadbrum) on keybase.
+  * I have a public key with fingerprint 26AF 313A 0195 578E 266A  8345 5D82 D1FC 17C2 CFE2
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012055032d13e853e868be20f6f745250b6e721bfdfa5884d979c72241bfcd3f66f00a",
+            "fingerprint": "26af313a0195578e266a83455d82d1fc17c2cfe2",
+            "host": "keybase.io",
+            "key_id": "5d82d1fc17c2cfe2",
+            "kid": "01017437e12baf46e1c0604a39e9ced13ce34cef310391ce89dcdf3fbe0f4ba13c660a",
+            "uid": "62fbd34ac5b058d2dcb69b34a3563719",
+            "username": "bedheadbrum"
+        },
+        "revoke": {
+            "sig_ids": [
+                "f83b7dd7905da6117d6824b65a548d539ebe3a22c8fd08faca84cc6cc98457e50f"
+            ]
+        },
+        "service": {
+            "hostname": "www.brummitt.me.uk",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1486035736,
+    "expire_in": 157680000,
+    "prev": "e34b49d286bd0a82e17fb36ac849a3284822a332fe4def4838df8174d7ec9f5e",
+    "seqno": 16,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.62
+Comment: https://keybase.io/crypto
+
+yMO7AnicbZJ7TBRHHMcPiyjQi4gJDx/RrM9GpLuzu7OzJ0arlYRIfFCjUpVjdx7H
+edwd3u3xshhfNTGxRqKIj9aILYG21ibVnhoqBCtUIkUBNRo0oraitVJTrA1BY+eI
+/tdNNpv9zff3/X7mN3PR/o4tLmr9ts6XyReu3I+63PwqZFuzb0LKJsH0kzLBsUnw
+0OEPLSQ0aDk9biI4BFECoqqKMiCSTJHKX4hMCkQGmaaoQBVNSDUgmYwwQ0VIIbqm
+Yw0AhZcwkRmETBQNIU1gbp+LBooCbp/FbQE0mCzJhijpqqohCiA0kKyoKkE8iWFJ
+wwAzCnhjgT8Y6eBwphGk6W4/r/Ef5zDe/+jfcouSpsgalYBpMAVSCYtQVAxZpzqm
+fDOYygqmHEKUdQlTpBNMmMxMKjLFNPg6hMPcoWE7CJhJZMXAqimqiACCTaibvCCr
+UNYkPSIM0oDP8FKuNikpoAYxAyGvUJEmBGix30Mjow26XZw7KDjWCgzJpkaIposq
+MaAkaQQioJhQNVQFEZVzmlQ2AMCIERExAxtIwRhirCNF1agqMmE99+ahxW48bB4Z
+1BuAkpKS9Ei6121Z6V6aHvJwwKKA3/JjfyFfL7CsoqAjwmaVFQ03UNP5xsppun2E
+HxbvKKaBoNvvExwSV2LLHfGWFARFWdVkmCbQ0iJ3gDrdEYWqQSTyJ5JDi7kln6+p
+6AQgaBLRQIBKGjNlaGCk6IYMkIIAMGQZMKoQyhQkI8IQPzOiUawzlQqRzW30+bk3
+j7IMF/fk8/MZVihAhYoLzeuibVFxtpiRIyK32BYXm/D2bpfcGvO6ojF/8uCZVZnZ
+U5etDsd2nCygBw99ffDVwPmqu9LazT85eld+//tTyVqCD/2WMUku695+r7Pr8rqh
+xdft3bcy34Up3bfmDXWae7dfXTD2Zv8j+5qqls31toUnMv5YZN+ZfLlm6Y4uNvv9
+8MRqluY78IHnr+LB+3/mBdfWbzvclGBv/yRnc0PDocZaT/yZ5d2pyu6oL8ZlHEms
+A7nrY1c+r3mR+YjsEQfP7ij9DPQmVtifsLIasbogOqvPu0SanO9qLVwwauTDH3bF
+3j1VuTTzwPEpN4Lfub550Oe91/p4xsupoWeNa04b3eXxi6OaOjf+Orh8yUTH1tGg
+MO92V0O4JPFYYmrsiUv/ttZ7wMSfS7OqhgbtA7+0T8hISEr5aNa06LaGa5ltM8Mf
+x2STnhWuDcKIZ+Olo0f3zy6v2n1Kyj/7QsBzxt9uGuiZlv3ht3Wd4eM7r0Vvnb8o
+ruDTcIe3o2fsvmNtSzedGBW2Th35cktZd++5SeezL6lb2tWcUf1lf8+lSVMO+47t
+a+sqb4mZlzd/oP9cYij1yc2+lpzamnEDs3b1v668jioT5j7vTdcbH3Zmzht5f8zj
+md5rtgerY+bor2rfg1dPVj8afaY5vif3af7B9glJ5f/UHTnQsGrG/vgrk/YMTb/0
+edZF552vem6edj35Mbl6Q/LsFQ1ZvY7q3L47ztFDuamly+wY3FhYvPc/vf3jSQ==
+=yMwZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bedheadbrum
+
+==================================================================
