@@ -12,6 +12,21 @@ $(document).ready(function () {
 
   $('[data-toggle="tooltip"]').tooltip({placement: "bottom"});
 
+  var menuVisible = false;  
+  var animateSpeed = 500; 
+
+  $('#menu-button').click(function () {
+    if (menuVisible) {
+      menuVisible = false;
+      $('#content-container').animate({ 'padding-left': '0' }, animateSpeed);
+      $('#nav-container').animate({ 'width': '0' }, animateSpeed);
+    } else {
+      menuVisible = true;
+      $('#content-container').animate({ 'padding-left': '300px' }, animateSpeed);
+      $('#nav-container').animate({ 'width': '300px' }, animateSpeed);
+    }
+    
+  }); 
 });
 
 $(window).bind("load", function () {

@@ -13,6 +13,21 @@ body{
 }
 
 #nav-container{
+  width:0px;
+  position: absolute;
+  top: 60px;
+  bottom: 0px;
+  left: 0px;
+  background: #EEE;
+  overflow: hidden;
+}
+
+#nav-inner{
+  padding: 20px;
+  width: 300px;
+}
+
+#head-container{
   position: absolute;
   top: 0;
   left: 0;
@@ -25,7 +40,7 @@ body{
   position:fixed;
 }
 
-#nav-container h1{
+#head-container h1{
   margin: 0;
   font-size: 22pt;
   display: inline-block;
@@ -37,15 +52,18 @@ h1, h2, h3{
   font-family: 'Bahiana', cursive;
 }
 
-#nav-container a{
+#head-container a{
   color: #383838;
   font-size: 22pt;
-  float: right;
   margin-left: 20px;
   line-height: 32px;
 }
 
-#nav-container a:hover{
+.floatRight{
+  float: right;
+}
+
+#head-container a:hover{
   color: #AAA;
 }
 
@@ -55,6 +73,7 @@ h1, h2, h3{
   padding-top: 150px;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 .container{
@@ -80,4 +99,8 @@ h1, h2, h3{
   height: 200px;
   margin-top: -100px; 
   margin-left: -100px; 
+}
+
+#mainContent{
+  min-width: 500px;
 }

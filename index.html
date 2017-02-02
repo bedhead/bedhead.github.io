@@ -110,15 +110,25 @@
         </div>
     </div>
     <div id="nav-container">
-        <h1>Ben Brummitt</h1>
-        
-        <a href="#" data-toggle="tooltip" title="Portfolio"><i class="fa fa-user-circle-o"></i></a>
-        <a href="https://github.com/bedhead/" data-toggle="tooltip" title="Github"><i class="fa fa-github"></i></a>
-        <a href="#" data-toggle="tooltip" title="Click me. Dare you!" onclick="window.game.createBot();"><i class="fa fa-play-circle"></i></a>
+        <div id="nav-inner">
+            <ul>
+                <li><a href="#">Nav Test</a></li>
+                <li><a href="#">Nav Test</a></li>
+            </ul>
+        </div>
     </div>
+    <div id="head-container">
+        <h1>Ben Brummitt</h1>
+        <a href="#" data-toggle="tooltip" title="Menu" id="menu-button"><i class="fa fa-bars"></i></a>
+        <a href="#" data-toggle="tooltip" title="Portfolio" class="floatRight"><i class="fa fa-user-circle-o"></i></a>
+        <a href="https://github.com/bedhead/" data-toggle="tooltip" title="Github" class="floatRight"><i class="fa fa-github"></i></a>
+        <a href="#" data-toggle="tooltip" title="Click me. Dare you!" onclick="window.game.createBot();" class="floatRight"><i class="fa fa-play-circle"></i></a>
+    </div>
+
     <div id="content-cover">
         <img src="res/loading.gif" />
     </div>
+
 </body>
 
 </html>
