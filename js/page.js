@@ -1,3 +1,20 @@
+
+function load_content(urlIn) {
+    $('#mainContent').slideUp(500, function(){
+      $.ajax({
+        url: urlIn,
+        timeout: 3000,
+        type: 'GET'
+      }).done(function (data) {
+        $('#mainContent').html(data);
+        $('#mainContent').slideDown(500);
+      }).fail(function (jqXhr) {
+        console.error('GET failed with error code ' + jqXhr.status + '.');
+      });
+    });
+    return false;
+  }
+
 $(document).ready(function () {
   //Disable auto scroll if the browser supports it.
   if ('scrollRestoration' in history) {
@@ -10,10 +27,10 @@ $(document).ready(function () {
     $('.container').animate({ 'background-color': 'rgba(250, 250, 250, 0.9)' }, 250);
   });
 
-  $('[data-toggle="tooltip"]').tooltip({placement: "bottom"});
+  $('[data-toggle="tooltip"]').tooltip({ placement: "bottom" });
 
-  var menuVisible = false;  
-  var animateSpeed = 500; 
+  var menuVisible = false;
+  var animateSpeed = 500;
 
   $('#menu-button').click(function () {
     if (menuVisible) {
@@ -25,11 +42,12 @@ $(document).ready(function () {
       $('#content-container').animate({ 'padding-left': '300px' }, animateSpeed);
       $('#nav-container').animate({ 'width': '300px' }, animateSpeed);
     }
-    
-  }); 
+  });
 });
 
 $(window).bind("load", function () {
   $('#content-cover').fadeToggle(1000);
 });
+
+
 
