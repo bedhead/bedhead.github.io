@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ben Brummitt <ben@brummitt.me.uk>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KPI Web Interface">
+
+    <title>Ben Brummitt</title>
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Bahiana|Lato" rel="stylesheet">
+
+    <!-- JavaScript Scripts -->
+    <script src="lib/jquery-3.1.1.min.js"></script>
+    <script src="lib/jquery-ui.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="lib/phaser.min.js"></script>
+    <script src="js/canvas.js"></script>
+    <script src="js/page.js"></script>
+</head>
+
+<body>
+    <div id="backdrop-canvas"></div>
+    <div id="content-container">
+        <div class="container" id="mainContent">
+            Index page content. Easy for the robots!
+        </div>
+    </div>
+    <div id="nav-container">
+        <div id="nav-inner">
+            <h2>This Site</h2>
+            <ul>
+                <li><a href="/" onclick="return load_content('/content/index.html');">Home</a></li>
+                <li><a href="/test.html" onclick="return load_content('/content/test.html');">A link that leads nowhere..</a></li>
+                <li><a href="/test.html" onclick="return load_content('/content/test.html');">This too..</a></li>
+            </ul>
+            <h2>External</h2>
+            <ul>
+                <li><a href="https://github.com/bedhead/">Visit me on GitHub</a></li>
+                <li><a href="/test.html" onclick="return load_content('/content/test.html');">Leading nowhere</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="head-container">
+        <h1>Ben Brummitt</h1>
+        <a href="#" data-toggle="tooltip" title="Menu" id="menu-button"><i class="fa fa-bars"></i></a>
+        <a href="#" data-toggle="tooltip" title="Portfolio" class="floatRight"><i class="fa fa-user-circle-o"></i></a>
+        <a href="https://github.com/bedhead/" data-toggle="tooltip" title="GitHub" class="floatRight"><i class="fa fa-github"></i></a>
+        <a href="#" data-toggle="tooltip" title="Click me. Dare you!" onclick="window.game.createBot();" class="floatRight"><i class="fa fa-play-circle"></i></a>
+    </div>
+
+    <div id="content-cover">
+        <img src="res/loading.gif" />
+    </div>
+
+</body>
+</html>
