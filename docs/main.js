@@ -57,7 +57,7 @@ __webpack_require__.r(__webpack_exports__);
 
 class AppComponent {
     constructor() {
-        this.title = 'ben.brummitt.me.uk';
+        this.title = 'brummitt.me.uk';
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
